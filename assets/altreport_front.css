@@ -1,0 +1,276 @@
+/* couleur bouton : pink */
+/* couleur texte : green */
+
+.alt_report-wrapper {
+     z-index : 500;
+    position : fixed;
+    bottom : 1em;
+    right : 1em;
+    max-width : 40em;  
+    text-align: center;
+}
+
+#alt_report {
+    /* quand c'est fermé */
+}
+
+    #alt_report.open {
+        background-color: white;
+        border: 1px solid #AAA;
+        border-radius : .5rem;
+        float: left;
+    }
+
+/* bouton */
+#report_bug {
+    position: relative;
+    appearance: none;
+
+    margin: 0;
+    padding : .75em 2em;
+
+    background: none;
+    background-color : pink;
+    
+    color : green;
+
+    font-weight: normal;
+    border: 1px solid pink;
+    border-radius : 1.5rem;
+}
+
+    #report_bug:focus {
+        outline: 1px dotted inherit;
+    }
+
+    #report_bug:hover {
+        background-color : green;
+        
+        color : pink;
+    }
+
+.open #report_bug {
+    width: 100%;
+    padding : .5em 2em;
+
+    background-color : #DDD;
+    color : #444;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    border-radius : .5rem .5em 0 0;
+}
+
+    .open #report_bug:after {
+        content:"x";
+        position: absolute;
+        right: .5em;
+        top: 20%;
+    }
+
+/* end=bouton */
+
+/* form ticket */
+.alt_report_bug {
+    padding: 1em;
+}
+
+    .alt_report_bug input,
+    .alt_report_bug textarea {
+        width : 100%;
+        margin-bottom : .5em;
+        font-size : 1em;
+        height : 3em;
+        background :  #fff;
+        color :  #444;
+    }
+    .alt_report_bug textarea {
+        height : 5em;
+    }
+
+.report_display {
+    display : none;
+}
+
+
+/* BLOC LISTE DE TICKETS */
+#alt_reports {
+    margin-top: 1em;
+    padding: .5em 1em;
+
+    background-color: white;
+
+    border: 1px solid #AAA;
+    border-radius : .5rem;
+}
+.report_dady {
+    position: relative;
+    appearance: none;
+
+    width: 100%;
+
+    margin: 0;
+    padding : 0;
+
+    background: none;
+    color : #444;
+
+    font-weight: normal;
+    border: 0;
+}
+
+    .report_dady:hover,
+    .report_dady:focus {
+        background: transparent;
+        color: pink;
+    }
+
+
+.alt_reports-wrapper {
+    padding-top : 1em;
+}
+
+.item-report {
+    position: relative;
+    appearance: none;
+
+    display: block;
+    width: 100%;
+
+    margin: 0;
+    padding : .25em 0;
+
+    background: none;
+    color: #444;
+
+    font-weight: normal;
+
+    border-top: 1px solid #AAA;
+}
+
+    .item-report:hover,
+    .item-report:focus {
+        background-color: #CCC;
+
+    }
+
+#open_alt_report {
+    cursor : pointer;
+}
+
+/* POPIN */
+.report_modale {
+    position : absolute;
+    left : -41em;
+    bottom : 0;
+
+    width : 40em;
+    padding : 5px;
+    
+    background-color : white;
+    
+    border: 1px solid #AAA;
+    border-radius : .5rem;
+}
+
+.report_modale-wrapper {
+    margin-bottom: 1em;
+}
+
+.report_modale-title {
+    margin: .5em 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+    color : green;
+}
+    .altreport_report_update {
+        padding: 0 1em;
+    }
+
+    .altreport_report_update label {
+        display: inline-block;
+        vertical-align: middle;
+        width: 25%;
+    }
+
+    .altreport_report_update select {
+        display: inline-block;
+        vertical-align: middle;
+        width: 75%;
+        height : 2.5em;
+        margin-bottom: .5em;
+        padding : .2em;
+    }
+
+    .altreport_report_update textarea {
+        width : 100%;
+        min-height : 5em;
+        margin-bottom: .5em;
+    }
+
+.report_modale a {
+    
+}
+    .report_modale a:hover,
+    .report_modale a:focus {
+        color : green;
+        text-decoration: underline;
+    }
+
+.report_display input[type="submit"],
+.alt_report_bug  input[type="submit"] {
+    width : 100%;
+    height : 3em;
+
+    margin : 1em 0;
+    padding : .2em;
+    
+    background-color : green;
+    color : pink;
+    border: 1px solid green;
+   
+    opacity : 0.8;
+}
+
+    .report_display[type="submit"]:hover, 
+    .alt_report_bug input[type="submit"]:hover {
+        opacity : 1;
+    }
+
+
+
+#super_modale {
+    display : none;
+    position : fixed;
+    top : 0px;
+    left : 0px;
+    height : 100%;
+    width : 100%;
+    cursor : Crosshair;
+    opacity : 0.5;
+    z-index : 99;
+}
+.select_modale {
+    opacity : 0.8;
+    z-index : 500;
+    background-color : #000;
+    border : 3px solid #fff;
+    position : absolute;
+    padding : 5px;
+}
+.select_modale textarea {
+    height : 50px;
+}
+.select_modale .close {
+    position : absolute;
+    top : 0px;
+    right : -21px;
+    background-color : #000;
+    color : #fff;
+    padding : 0px 5px;
+    cursor : pointer;
+}
+
+#altreport_update {
+    color : green;
+    margin-top :  10px;
+}

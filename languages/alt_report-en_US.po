@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AlT Report\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-15 13:26+0000\n"
+"PO-Revision-Date: 2018-03-15 13:30+0000\n"
+"Last-Translator: AlTi5 <alti5@live.fr>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: template/settings_redmine.php:130
+msgid "Adresse <i>exemple site.fr sans le http</i>"
+msgstr "Address <i> example site.fr without the http </ i>"
+
+#: template/settings.php:131
+msgid "Affichage"
+msgstr "Viewing"
+
+#: template/settings.php:181
+msgid ""
+"Ajouter /altreport_script/?jquery a la suite du script si vous avez déja "
+"jquery sur votre site "
+msgstr ""
+"Add /altreport_script /?Jquery following the script if you already have "
+"jquery on your site"
+
+#. Name of the plugin
+msgid "AlT Report"
+msgstr "AlT Report"
+
+#. Author of the plugin
+msgid "AlTi5"
+msgstr "AlTi5"
+
+#: template/settings.php:145
+msgid "cliquer pour choisir"
+msgstr "Click to choose"
+
+#: template/settings_redmine.php:134
+msgid "Clé d'acces API : disponible sur votre compte redmine '/my/account'"
+msgstr "API access key: available on your redmine account/my/account"
+
+#: template/settings.php:95
+msgid "Couleur du bouton"
+msgstr "Button Color"
+
+#: template/settings.php:92
+msgid "Couleur du texte"
+msgstr "Text Color"
+
+#: template/settings.php:133
+msgid "Edition"
+msgstr "Edition"
+
+#: template/settings.php:104
+msgid "Emails séparé d'une virgule"
+msgstr "Emails separated by a comma"
+
+#: template/settings.php:103
+msgid "Envoyer des notifications, email séparé d'une virgule"
+msgstr "Send notifications, email separated by a comma"
+
+#: template/settings.php:171
+msgid "Etes vous sur?"
+msgstr "Are you sure?"
+
+#. Description of the plugin
+msgid "Gestion des bugs"
+msgstr "Bug repporting"
+
+#: template/settings.php:126
+msgid "Gérer vos statut de ticket"
+msgstr "Manage Your Ticket Status"
+
+#. Author URI of the plugin
+msgid "http://wordpress.lived.fr/alti5/"
+msgstr "http://wordpress.lived.fr/alti5/"
+
+#. URI of the plugin
+msgid "http://wordpress.lived.fr/plugins/alt-report/"
+msgstr "http://wordpress.lived.fr/plugins/alt-report/"
+
+#: template/settings.php:132
+msgid "Icone"
+msgstr "Icone"
+
+#: template/settings.php:130
+msgid "Identifiant"
+msgstr "login"
+
+#: template/settings.php:180
+msgid "Inclure alt Report sur un site tier"
+msgstr "Include alt Report on a tier site"
+
+#: template/settings.php:127
+msgid "Indiquer comme valeur de statut 'fin' pour masquer les tickets"
+msgstr "Specify as 'fin' status value to hide tickets"
+
+#: template/settings.php:142
+msgid "label statut"
+msgstr "Label status"
+
+#: template/settings.php:107
+msgid "Message envoyer par email aux visiteurs qui on créé un rapport"
+msgstr "Message sent by email to visitors who created a report"
+
+#: template/settings_redmine.php:95
+msgid "Ne fonctionnera sur si vous indiquez toutes les informations"
+msgstr "Will not work on if you specify all information"
+
+#: alt-report.php:83
+msgid "Paramétrage"
+msgstr "Setting"
+
+#: template/settings.php:73
+msgid "Paramétrage général"
+msgstr "General Settings"
+
+#: alt-report.php:86 template/settings_redmine.php:94
+msgid "Paramétrage Redmine"
+msgstr "Redmine setting"
+
+#: template/settings_redmine.php:138
+msgid "Projet"
+msgstr "Projet"
+
+#: template/settings_redmine.php:102
+msgid "Protocole"
+msgstr "Protocol"
+
+#: template/settings.php:79
+msgid "Resctriction d'affichage"
+msgstr "Display Restriction"
+
+#: template/settings_redmine.php:109
+msgid "Statut <i>Indiquez les ID redmine correspondant au statut</i>"
+msgstr "Status <i> Specify the redmine IDs corresponding to the status </ i>"
+
+#: template/settings.php:111
+msgid "Statut par défaut"
+msgstr "Default status"
+
+#: template/settings.php:171
+msgid "Supprimer"
+msgstr "Remove"
+
+#: template/settings.php:98
+msgid "Texte du bouton"
+msgstr "Button text"
+
+#: template/settings.php:81
+msgid "Tous les utilisateurs même déconnecté"
+msgstr "All users even logged out"
+
+#: template/settings.php:139
+msgid "valeur statut"
+msgstr "Value status"

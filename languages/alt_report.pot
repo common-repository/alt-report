@@ -1,0 +1,249 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-22 17:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Name of the plugin
+msgid "AlT Report"
+msgstr ""
+
+#. Description of the plugin
+msgid "Gestion des bugs"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://wordpress.lived.fr/plugins/alt-report/"
+msgstr ""
+
+#. Author of the plugin
+msgid "AlTi5"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wordpress.lived.fr/alti5/"
+msgstr ""
+
+#: alt-report.php:54
+msgid "Paramétrage"
+msgstr ""
+
+#: includes/functions.php:118 includes/functions.php:265
+msgid "Description"
+msgstr ""
+
+#: includes/functions.php:258
+msgid "Navigateur"
+msgstr ""
+
+#: includes/functions.php:259
+msgid "Opérateur système"
+msgstr ""
+
+#: includes/functions.php:260 includes/functions.php:389
+msgid "Url du bug"
+msgstr ""
+
+#: includes/functions.php:261
+msgid "Heure du bug"
+msgstr ""
+
+#: includes/functions.php:262
+msgid "Largeur fenêtre"
+msgstr ""
+
+#: includes/functions.php:263
+msgid "Hauteur fenêtre"
+msgstr ""
+
+#: includes/functions.php:264
+msgid "Impression écran"
+msgstr ""
+
+#: includes/functions.php:295
+msgid "Ticket redmine lier"
+msgstr ""
+
+#: includes/functions.php:343
+msgid "Report tickets"
+msgstr ""
+
+#: includes/functions.php:344
+msgid "Rapport"
+msgstr ""
+
+#: includes/functions.php:348
+msgid "Rapports"
+msgstr ""
+
+#: includes/functions.php:393
+msgid "Email visiteur"
+msgstr ""
+
+#: includes/functions.php:482
+msgid "<input type=\"checkbox\" />"
+msgstr ""
+
+#: includes/functions.php:483 includes/functions.php:484
+msgid "Statut"
+msgstr ""
+
+#: includes/functions.php:486
+msgid "Redmine"
+msgstr ""
+
+#: includes/functions.php:488
+msgid "Url bug"
+msgstr ""
+
+#: includes/functions.php:489
+msgid "Date"
+msgstr ""
+
+#: includes/functions.php:553
+msgid "Tout les statut"
+msgstr ""
+
+#: includes/modales.php:6
+msgid "priorité"
+msgstr ""
+
+#: includes/modales.php:15
+msgid "Votre email si vous souhaitez être re-contacté"
+msgstr ""
+
+#: includes/modales.php:18
+msgid "Titre ticket*"
+msgstr ""
+
+#: includes/modales.php:19
+msgid "Description du problème*"
+msgstr ""
+
+#: includes/parametrage.php:5
+msgid "Signaler"
+msgstr ""
+
+#: includes/parametrage.php:7
+msgid ""
+"Votre rapport a bien été signalé nous revenons vers vous dans les plus "
+"brefs délai"
+msgstr ""
+
+#: template/pictos.php:7
+msgid "Choissisez une icone en cliquant dessus"
+msgstr ""
+
+#: template/pictos.php:8
+msgid "Fermer"
+msgstr ""
+
+#: template/tblbords.php:78
+msgid "Options générales"
+msgstr ""
+
+#: template/tblbords.php:81
+msgid "Liaison redmine"
+msgstr ""
+
+#: template/tblbords.php:85
+msgid "Paramétrage général"
+msgstr ""
+
+#: template/tblbords.php:91
+msgid "Resctriction d'affichage"
+msgstr ""
+
+#: template/tblbords.php:93
+msgid "Tous les utilisateurs même déconnecté"
+msgstr ""
+
+#: template/tblbords.php:104
+msgid "Couleur du texte"
+msgstr ""
+
+#: template/tblbords.php:107
+msgid "Couleur du bouton"
+msgstr ""
+
+#: template/tblbords.php:110
+msgid "Texte du bouton"
+msgstr ""
+
+#: template/tblbords.php:115
+msgid "Envoyer des notifications, email séparé d'une virgule"
+msgstr ""
+
+#: template/tblbords.php:116
+msgid "Emails séparé d'une virgule"
+msgstr ""
+
+#: template/tblbords.php:119
+msgid "Message envoyer par email aux visiteurs qui on créé un rapport"
+msgstr ""
+
+#: template/tblbords.php:128
+msgid "Gérer vos statut de ticket"
+msgstr ""
+
+#: template/tblbords.php:129
+msgid "Indiquer comme valeur de statut 'fin' pour masquer les tickets"
+msgstr ""
+
+#: template/tblbords.php:135
+msgid "valeur statut"
+msgstr ""
+
+#: template/tblbords.php:138
+msgid "label statut"
+msgstr ""
+
+#: template/tblbords.php:141
+msgid "cliquer pour choisir"
+msgstr ""
+
+#: template/tblbords.php:160
+msgid "Supprimer"
+msgstr ""
+
+#: template/tblbords.php:160
+msgid "Etes vous sur?"
+msgstr ""
+
+#: template/tblbords.php:172
+msgid "Ne fonctionnera sur si vous indiquez toutes les informations"
+msgstr ""
+
+#: template/tblbords.php:177
+msgid "Protocole"
+msgstr ""
+
+#: template/tblbords.php:184
+msgid "Statut <i>Indiquez les ID redmine correspondant au statut</i>"
+msgstr ""
+
+#: template/tblbords.php:205
+msgid "Adresse <i>exemple site.fr sans le http</i>"
+msgstr ""
+
+#: template/tblbords.php:210
+msgid "Login"
+msgstr ""
+
+#: template/tblbords.php:215
+msgid "Mot de passe"
+msgstr ""
+
+#: template/tblbords.php:219
+msgid "Projet"
+msgstr ""

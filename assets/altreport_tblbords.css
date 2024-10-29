@@ -1,0 +1,53 @@
+/* 
+    Created on : 9 janv. 2017, 12:22:47
+    Author     : AlTi5
+*/
+
+    .onglet_option
+    {
+        float: left;
+        border-radius: 10px 10px 0px 0px;
+        padding: 10px;
+        margin: 5px;
+        font-size: 20px;
+        margin-bottom: 0px;
+        cursor: pointer;
+        background-color: #ccc;
+        color: #000;
+    }
+
+    .active
+    {
+        background-color: #000;
+        color: #fff;
+    }
+    .onglet_content
+    {
+        margin-top: 0px;
+        border-top:1px solid #000;
+        background-color: #ccc;
+        float: left;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    #iconlist .dashicons{
+        width: auto;
+        font-size: initial; 
+        display: block;
+        float: left;
+        margin: 1px;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+    #iconlist{
+        position: absolute;
+        width: 500px;
+        height: 214px;
+        overflow: auto;
+        background-color: #fff;
+        display: none;
+        top: 0px;
+    }
